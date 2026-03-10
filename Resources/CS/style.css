@@ -50,7 +50,7 @@ body {
   text-align: center;
   min-width: 150px; /* ensures items have decent size */
   flex: 1 1 150px; /* responsive sizing */
-  height: 30vh;
+  height: 28vh;
 }
 .scores {
   color: #fff;
