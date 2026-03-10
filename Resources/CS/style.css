@@ -146,7 +146,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-@media (max-width: 420px) {
+@media (max-width: 370px) {
   .header {
     font-size: 3vh;
     flex-direction: column;
