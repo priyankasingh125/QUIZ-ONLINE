@@ -20,9 +20,17 @@ Quiz does not navigate to the next question , until and unless user selects an a
 
 SCREENSHOTS OF THE APP:
 
-Check the Folder \assets\screenshots.
+Check the Folder \resources\screenshots\
 
 
+PROJECT DESCRIPTION:
+
+Check the Folder \resources\project-desc\
+
+
+CSS/HTML/JAVASCRIPT VALIDATION CHECKS:
+
+Check the Folder \resources\report\
 
 
 
