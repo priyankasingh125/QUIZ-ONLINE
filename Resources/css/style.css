@@ -2,6 +2,7 @@
   margin-bottom: 40px;
   margin-top: 40px;
 }
+
 html,
 body {
   background-size: cover;
@@ -13,7 +14,8 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* center items horizontally */
+  justify-content: center;
+  /* center items horizontally */
   align-items: center;
   height: 100%;
   overflow-y: hidden;
@@ -23,36 +25,50 @@ body {
 /* Flex container holding all quiz items */
 .quizContainer {
   display: flex;
-  flex-wrap: wrap; /* allow items to wrap */
-  justify-content: center; /* center items horizontally */
-  align-items: center; /* center items vertically */
+  flex-wrap: wrap;
+  /* allow items to wrap */
+  justify-content: center;
+  /* center items horizontally */
+  align-items: center;
+  /* center items vertically */
   color: white;
   flex-direction: row;
-  width: 80vw; /* responsive width */
-  max-width: 900px; /* optional max width */
+  width: 80vw;
+  /* responsive width */
+  max-width: 900px;
+  /* optional max width */
   border-radius: 10px;
-  background: rgba(0, 0, 0, 0.5); /* optional background for visibility */
+  background: rgba(0, 0, 0, 0.5);
+  /* optional background for visibility */
   width: 100vw;
   height: 100%;
 }
 
 /* Individual quiz items */
 .containerFlex {
-  display: flex; /* enable flex for inner centering */
-  justify-content: center; /* center content horizontally */
-  align-items: center; /* center content vertically */
+  display: flex;
+  /* enable flex for inner centering */
+  justify-content: center;
+  /* center content horizontally */
+  align-items: center;
+  /* center content vertically */
   background-color: DodgerBlue;
-  border: 2px solid white; /* fixed invalid border */
+  border: 2px solid white;
+  /* fixed invalid border */
   font-weight: bold;
   font-size: 16px;
   padding: 30px 20px;
-  margin: 10px; /* spacing between items */
+  margin: 10px;
+  /* spacing between items */
   border-radius: 5px;
   text-align: center;
-  min-width: 150px; /* ensures items have decent size */
-  flex: 1 1 150px; /* responsive sizing */
+  min-width: 150px;
+  /* ensures items have decent size */
+  flex: 1 1 150px;
+  /* responsive sizing */
   height: 28vh;
 }
+
 .scores {
   color: #fff;
   font-size: 20px;
@@ -61,6 +77,7 @@ body {
   justify-content: right;
   font-weight: bold;
 }
+
 .ansbtn {
   top: 0%;
   bottom: 0%;
@@ -77,12 +94,14 @@ body {
   color: #ffffff;
   padding: 5px 10px;
 }
+
 .ansbtn:disabled,
 .ansbtn[disabled] {
   border: 1px solid #999999;
   background-color: #cccccc;
   color: #ffffff;
 }
+
 .answerbtn {
   width: 50%;
   aspect-ratio: 2/1;
@@ -94,6 +113,7 @@ body {
   font-weight: bold;
   font-size: 30px;
 }
+
 .headerQues {
   color: #fff;
   text-align: center;
@@ -109,20 +129,26 @@ body {
   justify-content: center;
   min-height: fit-content;
 }
+
 .header {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* center horizontally */
-  align-items: center; /* center vertically */
+  justify-content: center;
+  /* center horizontally */
+  align-items: center;
+  /* center vertically */
   text-align: center;
-  gap: 10px; /* space between items */
+  gap: 10px;
+  /* space between items */
   padding: 15px;
   color: rgb(65, 88, 93);
-  font-size: clamp(18px, 4vw, 32px); /* responsive font size */
+  font-size: clamp(18px, 4vw, 32px);
+  /* responsive font size */
   width: 100%;
   position: relative;
   z-index: 10;
 }
+
 .head {
   text-align: center;
   display: flex;
@@ -130,6 +156,7 @@ body {
   position: relative;
   justify-content: center;
 }
+
 .about-header {
   text-align: center;
   top: 25svh;
@@ -138,15 +165,20 @@ body {
   width: 80svh;
   justify-content: center;
 }
+
 .flex-item {
   width: 100%;
 }
+
 .button-container {
   display: flex;
-  justify-content: center; /* horizontal center */
-  gap: 10px; /* space between buttons */
+  justify-content: center;
+  /* horizontal center */
+  gap: 10px;
+  /* space between buttons */
   margin-top: 20px;
 }
+
 .btn {
   background-color: #005fcc;
   border: 3px solid #005fcc;
@@ -160,11 +192,13 @@ body {
   text-align: center;
   justify-content: center;
 }
+
 .navigation {
   display: relative;
   justify-content: center;
   align-items: center;
 }
+
 @media (max-width: 675px) {
   body {
     background-size: cover;
@@ -178,28 +212,39 @@ body {
     overflow-y: hidden;
     overflow-x: hidden;
   }
+
   .quizContainer {
-    flex-wrap: wrap; /* allow items to wrap */
-    justify-content: center; /* center items horizontally */
-    align-items: center; /* center items vertically */
+    flex-wrap: wrap;
+    /* allow items to wrap */
+    justify-content: center;
+    /* center items horizontally */
+    align-items: center;
+    /* center items vertically */
     color: white;
     flex-direction: row;
 
     border-radius: 10px;
-    background: rgba(0, 0, 0, 0.5); /* optional background for visibility */
+    background: rgba(0, 0, 0, 0.5);
+    /* optional background for visibility */
   }
+
   /* Individual quiz items */
   .containerFlex {
-    display: flex; /* enable flex for inner centering */
-    justify-content: center; /* center content horizontally */
-    align-items: center; /* center content vertically */
+    display: flex;
+    /* enable flex for inner centering */
+    justify-content: center;
+    /* center content horizontally */
+    align-items: center;
+    /* center content vertically */
     background-color: DodgerBlue;
-    border: 2px solid white; /* fixed invalid border */
+    border: 2px solid white;
+    /* fixed invalid border */
     font-weight: bold;
     font-size: 16px;
     border-radius: 5px;
     text-align: center;
-    min-width: 150px; /* ensures items have decent size */
+    min-width: 150px;
+    /* ensures items have decent size */
     flex: 1 1 150px;
     height: auto;
   }
@@ -207,49 +252,65 @@ body {
   /* Flex container holding all quiz items */
   .quizContainer {
     display: flex;
-    flex-wrap: wrap; /* allow items to wrap */
-    justify-content: center; /* center items horizontally */
-    align-items: center; /* center items vertically */
+    flex-wrap: wrap;
+    /* allow items to wrap */
+    justify-content: center;
+    /* center items horizontally */
+    align-items: center;
+    /* center items vertically */
     color: white;
     flex-direction: row;
-    width: 80vw; /* responsive width */
-    max-width: 900px; /* optional max width */
+    width: 80vw;
+    /* responsive width */
+    max-width: 900px;
+    /* optional max width */
     border-radius: 10px;
-    background: rgba(0, 0, 0, 0.5); /* optional background for visibility */
+    background: rgba(0, 0, 0, 0.5);
+    /* optional background for visibility */
     width: 100vw;
     height: auto;
   }
 
   /* Individual quiz items */
   .containerFlex {
-    display: flex; /* enable flex for inner centering */
-    justify-content: center; /* center content horizontally */
-    align-items: center; /* center content vertically */
+    display: flex;
+    /* enable flex for inner centering */
+    justify-content: center;
+    /* center content horizontally */
+    align-items: center;
+    /* center content vertically */
     background-color: DodgerBlue;
-    border: 2px solid white; /* fixed invalid border */
+    border: 2px solid white;
+    /* fixed invalid border */
     font-weight: bold;
     font-size: 16px;
     padding: 10px 5px;
-    margin: 3px; /* spacing between items */
+    margin: 3px;
+    /* spacing between items */
     border-radius: 5px;
     text-align: center;
-    min-width: 150px; /* ensures items have decent size */
-    flex: 1 1 150px; /* responsive sizing */
+    min-width: 150px;
+    /* ensures items have decent size */
+    flex: 1 1 150px;
+    /* responsive sizing */
     height: auto;
   }
+
   .header {
-    flex-direction: column; /* stack items vertically */
+    flex-direction: column;
+    /* stack items vertically */
     font-size: 20px;
     padding: 10px;
   }
 
   .flex-item {
-    width: 100%
-    height: auto; /* each item takes full width */
+    width: 100% height: auto;
+    /* each item takes full width */
   }
 
   .btn {
-    width: 90%; /* buttons smaller than full width */
+    width: 90%;
+    /* buttons smaller than full width */
     max-width: 220px;
   }
 
@@ -267,12 +328,14 @@ body {
     height: 0px;
     width: 100%;
   }
+
   .headerQues {
     top: 0%;
     color: #fff;
     text-align: center;
     justify-content: center;
   }
+
   .about-header {
     text-align: center;
     top: 25svh;
@@ -281,8 +344,10 @@ body {
     width: 40svh;
     justify-content: center;
   }
+  
 }
-@media (max-width: 50px) {
+
+@media (max-width: 1100px) {
   .scores {
     color: #fff;
     font-size: 16px;
@@ -290,48 +355,67 @@ body {
     font-weight: bold;
     justify-content: right;
   }
+
   .headerQues {
     text-align: center;
     justify-content: center;
   }
+
   .flex-item {
     width: 100%;
     height: 50px;
   }
+
   .quizContainer {
     display: flex;
-    flex-wrap: wrap; /* allow items to wrap */
-    justify-content: center; /* center items horizontally */
-    align-items: center; /* center items vertically */
+    flex-wrap: wrap;
+    /* allow items to wrap */
+    justify-content: center;
+    /* center items horizontally */
+    align-items: center;
+    /* center items vertically */
     color: white;
     flex-direction: row;
-    width: 80vw; /* responsive width */
-    max-width: 900px; /* optional max width */
+    width: 80vw;
+    /* responsive width */
+    max-width: 900px;
+    /* optional max width */
     border-radius: 10px;
-    background: rgba(0, 0, 0, 0.5); /* optional background for visibility */
+    background: rgba(0, 0, 0, 0.5);
+    /* optional background for visibility */
     min-height: 100dvh;
     margin-top: 60px;
   }
+
   /* Individual quiz items */
   .containerFlex {
-    display: flex; /* enable flex for inner centering */
-    justify-content: center; /* center content horizontally */
-    align-items: center; /* center content vertically */
+    display: flex;
+    /* enable flex for inner centering */
+    justify-content: center;
+    /* center content horizontally */
+    align-items: center;
+    /* center content vertically */
     background-color: DodgerBlue;
-    border: 2px solid white; /* fixed invalid border */
+    border: 2px solid white;
+    /* fixed invalid border */
     font-weight: bold;
     font-size: 16px;
     padding: 10px 20px;
-    margin: 10px; /* spacing between items */
+    margin: 10px;
+    /* spacing between items */
     border-radius: 5px;
     text-align: center;
-    min-width: 150px; /* ensures items have decent size */
-    flex: 1 1 150px; /* responsive sizing */
+    min-width: 150px;
+    /* ensures items have decent size */
+    flex: 1 1 150px;
+    /* responsive sizing */
     min-height: 35vh;
   }
+
   .flex-break {
     flex-basis: 100%;
   }
+
   .btn {
     background-color: #005fcc;
     border: 3px solid #005fcc;
@@ -342,9 +426,11 @@ body {
     font-weight: bold;
     color: #ffffff;
     font-size: 16px;
-    justify-content: center; /* center content horizontally */
+    justify-content: center;
+    /* center content horizontally */
     align-items: center;
   }
+
   head {
     text-align: center;
     justify-content: center;
@@ -354,6 +440,7 @@ body {
     left: 18dvh;
     position: relative;
   }
+
   .about-header {
     text-align: center;
     top: 25svh;
