@@ -6,7 +6,7 @@ html,
 body {
   background-size: cover;
   background-position: center;
-  background-image: url(../IMG/question_marks_background.jpg);
+  background-image: url(../img/question_marks_background.jpg);
   background-repeat: no-repeat;
   font-family: "Roboto", sans-serif;
   position: relative;
